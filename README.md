@@ -1,47 +1,78 @@
 # T092-NetworkIQ
-NetworkIQ: AI-BASED INVENTORY OPTIMIZATION DASHBOARD
-PROBLEM STATEMENT:
+# 🚀 NetworkIQ: AI-Based Inventory Optimization Dashboard
+
+## 📌 Problem Statement
+
 Retail businesses often struggle with inventory imbalance, where some warehouses have excess stock while others face shortages. Manual inventory planning can lead to delayed deliveries, higher storage costs, and poor product availability.
-NetworkIQ is a dashboard that helps visualize inventory across locations, monitor demand, and provide inventory transfer recommendations to support better decision-making
 
-OBJECTIVE:
+**NetworkIQ** is an AI-powered inventory optimization dashboard that helps organizations visualize inventory across locations, monitor demand, and generate inventory transfer recommendations to improve operational efficiency and support better business decisions.
+
+---
+
+# 🎯 Objective
+
 Develop a centralized inventory management dashboard that enables planners to:
-Monitor inventory across warehouses and stores View demand forecasts for products Identify surplus and shortage locations Generate inventory transfer recommendations Review and approve suggested actions Track inventory performance through reports
 
-CURRENT FEATURES:
-->Dashboard
-*Displays overall inventory statistics
-*Shows stock availability across locations
-*Highlights inventory health
-->Demand Forecast
-*Displays predicted demand for different SKUs
-*Helps identify products with increasing or decreasing demand
-->Inventory Management
-*Shows current stock levels
-*Identifies overstock and understock situations
-->AI Agents (Simulation)
-*Displays different inventory decision agents
-*Demonstrates how each agent contributes to inventory planning
-->Recommendations
-*Suggests stock transfers between locations
-*Prioritizes locations with shortages
-*Approval Workflow
-*Allows planners to review recommendations
-*Accept or reject suggested transfers
-->Reports
-Visualizes inventory trends
-Displays transfer history and stock movement summaries
+- 📦 Monitor inventory across warehouses and stores
+- 📈 View demand forecasts for products
+- ⚠️ Identify surplus and shortage locations
+- 🔄 Generate inventory transfer recommendations
+- ✅ Review and approve suggested inventory transfers
+- 📊 Track inventory performance through reports and analytics
 
-TECHNOLOGY STACK:
-LAYER  TECHNOLOGY
-Frontend        React.js
-Routing        React Router
-Backend           FastAPI
-Database         PostgreSQL
-Charts        Recharts / Chart.js
-Styling         Tailwind CSS
-Authentication       React Context AP
+---
 
+# ✨ Current Features
+
+## 📊 Dashboard
+- Displays overall inventory statistics
+- Shows stock availability across all locations
+- Highlights inventory health status
+
+## 📈 Demand Forecast
+- Displays predicted demand for different SKUs
+- Identifies products with increasing or decreasing demand
+
+## 📦 Inventory Management
+- Shows current inventory levels
+- Detects overstock and understock situations
+
+## 🤖 AI Agents (Simulation)
+- Demonstrates different inventory decision agents
+- Shows how each agent contributes to inventory planning
+
+## 🔄 Recommendations
+- Suggests inventory transfers between locations
+- Prioritizes locations experiencing shortages
+
+## ✅ Approval Workflow
+- Allows planners to review transfer recommendations
+- Accept or reject suggested inventory transfers
+
+## 📊 Reports
+- Visualizes inventory trends
+- Displays transfer history
+- Shows stock movement summaries
+
+---
+
+# 🛠 Technology Stack
+
+| Layer | Technology |
+|--------|------------|
+| Frontend | React.js |
+| Routing | React Router |
+| Backend | FastAPI |
+| Database | PostgreSQL |
+| Charts | Recharts / Chart.js |
+| Styling | Tailwind CSS |
+| Authentication | React Context API |
+
+---
+
+# 📁 Project Structure
+
+```text
 inventory-ai/
 │
 ├── src/
@@ -74,37 +105,121 @@ inventory-ai/
 ├── package.json
 ├── package-lock.json
 ├── index.html
-└── .gitignore
+├── .gitignore
+└── README.md
+```
 
+---
 
-APPLICATION WORKFLOW:
+# 🔄 Application Workflow
+
+```text
 User Login
-      │
-      ▼
+     │
+     ▼
 Dashboard
-      │
-      ▼
+     │
+     ▼
 Demand Forecast
-      │
-      ▼
+     │
+     ▼
 Inventory Analysis
-      │
-      ▼
+     │
+     ▼
 AI Agent Simulation
-      │
-      ▼
+     │
+     ▼
 Transfer Recommendations
-      │
-      ▼
+     │
+     ▼
 Planner Approval
-      │
-      ▼
+     │
+     ▼
 Reports & Analytics
+```
 
+---
 
-FUTURE SCOPE:
-Integrate machine learning-based demand forecastingImplement real-time inventory optimizationAdd multi-agent collaboration using CrewAI or LangGraph Connect with PostgreSQL and FastAPI backend Integrate OR-Tools for inventory optimization Support real-time warehouse data Add ERP integration
+# 📈 Benefits
 
-OUR TEAM VISION:
-Our goal is to build an intelligent inventory optimization platform that helps planners monitor inventory, analyze demand, and make better stock transfer decisions through an easy-to-use dashboard. The current version focuses on providing a complete workflow and user interface, while future versions will integrate AI models and optimization algorithms to automate inventory planning.
+- Improved inventory visibility
+- Faster decision making
+- Better stock utilization
+- Reduced inventory shortages
+- Lower storage costs
+- Streamlined approval workflow
+- Interactive dashboards and reports
 
+---
+
+# 🚀 Future Scope
+
+- 🤖 Integrate Machine Learning-based demand forecasting
+- 🔄 Real-time inventory optimization
+- 🤝 Multi-Agent collaboration using CrewAI or LangGraph
+- 🗄 Connect FastAPI with PostgreSQL backend
+- 📊 Integrate Google OR-Tools for optimization
+- 📡 Support real-time warehouse inventory updates
+- 🏢 ERP & Warehouse Management System integration
+
+---
+
+# 👨‍💻 Team Vision
+
+Our goal is to build an intelligent inventory optimization platform that helps planners monitor inventory, analyze demand, and make better stock transfer decisions through an intuitive and user-friendly dashboard.
+
+The current version focuses on providing a complete workflow and modern user interface. Future versions will integrate AI models, multi-agent collaboration, and mathematical optimization algorithms to automate inventory planning and improve supply chain efficiency.
+
+---
+
+# ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Nikhil-1437/networkiq-hackathon.git
+```
+
+### Navigate to the Project
+
+```bash
+cd networkiq-hackathon
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start the Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+# 📷 Screenshots
+
+> Add screenshots of the Dashboard, Inventory, Reports, and AI Agent pages here.
+
+Example:
+
+```
+screenshots/
+├── dashboard.png
+├── inventory.png
+├── reports.png
+└── agents.png
+```
+
+---
+
+# 📄 License
+
+This project was developed for the **NetworkIQ Hackathon** as a demonstration of an AI-powered inventory optimization dashboard.
+
+---
+
+## ⭐ If you like this project, don't forget to star the repository!
