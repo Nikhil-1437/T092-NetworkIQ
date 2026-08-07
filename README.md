@@ -213,13 +213,3 @@ screenshots/
 ├── reports.png
 └── agents.png
 ```
-
----
-
-# 📄 License
-
-This project was developed for the **NetworkIQ Hackathon** as a demonstration of an AI-powered inventory optimization dashboard.
-
----
-
-## ⭐ If you like this project, don't forget to star the repository!
